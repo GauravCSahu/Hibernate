@@ -9,6 +9,7 @@ import com.tutorial.hibernate.model.Employee1;
 import com.tutorial.hibernate.util.HibernateUtil;
 
 public class HibernateJavaConfigMain {
+	
 	public static void main(String[] args) {
 		Employee1 emp = new Employee1();
 		emp.setName("Lisa");
