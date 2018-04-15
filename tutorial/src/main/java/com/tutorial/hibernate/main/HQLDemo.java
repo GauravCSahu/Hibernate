@@ -67,6 +67,12 @@ public class HQLDemo {
 		int result = query.executeUpdate();
 		System.out.println("Employee1 Update Status=" + result);
 
+		// Get Example
+		Employee1 emp5 = (Employee1) session.get(Employee1.class, new Integer(2));
+		logger.info("Employee get called");
+		logger.info("Employee ID= " + emp5.getId());
+		logger.info("Employee Get Details:: " + emp5 + "\n");
+
 		// Commit transaction
 		session.getTransaction().commit();
 
