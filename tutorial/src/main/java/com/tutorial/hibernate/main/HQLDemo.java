@@ -17,6 +17,7 @@ public class HQLDemo {
 		DOMConfigurator.configure("log4j.xml");
 		System.out.println("After log4j configuration");
 	}
+	
 
 	private static Logger logger = Logger.getLogger(HQLDemo.class);
 
