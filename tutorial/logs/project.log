@@ -1,18 +1,36 @@
-2018-04-15 16:08:47,035 +0530 [main] INFO  (HQLDemo.java:28) - Getting a fresh session
-2018-04-15 16:08:48,152 +0530 [main] INFO  (HQLDemo.java:32) - Session : SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=org.hibernate.engine.spi.ExecutableList@5a021cb9 updates=org.hibernate.engine.spi.ExecutableList@51768776 deletions=org.hibernate.engine.spi.ExecutableList@f31c0c6 orphanRemovals=org.hibernate.engine.spi.ExecutableList@b93aad collectionCreations=org.hibernate.engine.spi.ExecutableList@4a9419d7 collectionRemovals=org.hibernate.engine.spi.ExecutableList@2f3c6ac4 collectionUpdates=org.hibernate.engine.spi.ExecutableList@2e8ab815 collectionQueuedOps=org.hibernate.engine.spi.ExecutableList@67af833b unresolvedInsertDependencies=UnresolvedEntityInsertActions[]])
-2018-04-15 16:08:48,155 +0530 [main] INFO  (HQLDemo.java:37) - Get all employees
-2018-04-15 16:08:48,286 +0530 [main] INFO  (HQLDemo.java:39) - Query : QueryImpl(from Employee1)
-2018-04-15 16:08:48,374 +0530 [main] INFO  (HQLDemo.java:43) - List of Employees :1
-2018-04-15 16:08:48,375 +0530 [main] INFO  (HQLDemo.java:43) - List of Employees :19
-2018-04-15 16:08:48,375 +0530 [main] INFO  (HQLDemo.java:43) - List of Employees :20
-2018-04-15 16:08:48,375 +0530 [main] INFO  (HQLDemo.java:43) - List of Employees :21
-2018-04-15 16:08:48,375 +0530 [main] INFO  (HQLDemo.java:43) - List of Employees :22
-2018-04-15 16:08:48,375 +0530 [main] INFO  (HQLDemo.java:47) - HQL example - Get Employee with id
-2018-04-15 16:08:48,405 +0530 [main] INFO  (HQLDemo.java:51) - Employee Name : David
-2018-04-15 16:08:48,409 +0530 [main] INFO  (HQLDemo.java:59) - Paginated Employees :1
-2018-04-15 16:08:48,409 +0530 [main] INFO  (HQLDemo.java:59) - Paginated Employees :19
-2018-04-15 16:08:48,409 +0530 [main] INFO  (HQLDemo.java:59) - Paginated Employees :20
-2018-04-15 16:08:48,409 +0530 [main] INFO  (HQLDemo.java:59) - Paginated Employees :21
-2018-04-15 16:08:48,409 +0530 [main] INFO  (HQLDemo.java:59) - Paginated Employees :22
-2018-04-15 16:08:48,410 +0530 [main] INFO  (HQLDemo.java:63) - Updating the Employee Name David
-2018-04-15 16:08:48,431 +0530 [main] INFO  (HQLDemo.java:75) - DONE
+2018-04-15 20:45:03,902 +0530 [main] INFO  (HQLDemo.java:28) - Getting a fresh session
+2018-04-15 20:45:05,322 +0530 [main] INFO  (HQLDemo.java:32) - Session : SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=org.hibernate.engine.spi.ExecutableList@5a021cb9 updates=org.hibernate.engine.spi.ExecutableList@51768776 deletions=org.hibernate.engine.spi.ExecutableList@f31c0c6 orphanRemovals=org.hibernate.engine.spi.ExecutableList@b93aad collectionCreations=org.hibernate.engine.spi.ExecutableList@4a9419d7 collectionRemovals=org.hibernate.engine.spi.ExecutableList@2f3c6ac4 collectionUpdates=org.hibernate.engine.spi.ExecutableList@2e8ab815 collectionQueuedOps=org.hibernate.engine.spi.ExecutableList@67af833b unresolvedInsertDependencies=UnresolvedEntityInsertActions[]])
+2018-04-15 20:45:05,325 +0530 [main] INFO  (HQLDemo.java:37) - Get all employees
+2018-04-15 20:45:05,463 +0530 [main] INFO  (HQLDemo.java:39) - Query : QueryImpl(from Employee1)
+2018-04-15 20:45:05,557 +0530 [main] INFO  (HQLDemo.java:43) - List of Employees :1
+2018-04-15 20:45:05,558 +0530 [main] INFO  (HQLDemo.java:43) - List of Employees :19
+2018-04-15 20:45:05,558 +0530 [main] INFO  (HQLDemo.java:43) - List of Employees :20
+2018-04-15 20:45:05,558 +0530 [main] INFO  (HQLDemo.java:43) - List of Employees :21
+2018-04-15 20:45:05,559 +0530 [main] INFO  (HQLDemo.java:43) - List of Employees :22
+2018-04-15 20:45:05,559 +0530 [main] INFO  (HQLDemo.java:47) - HQL example - Get Employee with id
+2018-04-15 20:45:05,589 +0530 [main] INFO  (HQLDemo.java:51) - Employee Name : Gaurav C Sahu
+2018-04-15 20:45:05,592 +0530 [main] INFO  (HQLDemo.java:59) - Paginated Employees :1
+2018-04-15 20:45:05,593 +0530 [main] INFO  (HQLDemo.java:59) - Paginated Employees :19
+2018-04-15 20:45:05,593 +0530 [main] INFO  (HQLDemo.java:59) - Paginated Employees :20
+2018-04-15 20:45:05,593 +0530 [main] INFO  (HQLDemo.java:59) - Paginated Employees :21
+2018-04-15 20:45:05,593 +0530 [main] INFO  (HQLDemo.java:59) - Paginated Employees :22
+2018-04-15 20:45:05,593 +0530 [main] INFO  (HQLDemo.java:63) - Updating the Employee Name Gaurav C Sahu
+2018-09-09 20:35:05,353 +0530 [main] INFO  (HQLDemo.java:28) - Getting a fresh session
+2018-09-09 20:35:51,093 +0530 [main] INFO  (HQLDemo.java:28) - Getting a fresh session
+2018-09-09 20:35:52,503 +0530 [main] INFO  (HQLDemo.java:32) - Session : SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=org.hibernate.engine.spi.ExecutableList@5a021cb9 updates=org.hibernate.engine.spi.ExecutableList@51768776 deletions=org.hibernate.engine.spi.ExecutableList@f31c0c6 orphanRemovals=org.hibernate.engine.spi.ExecutableList@b93aad collectionCreations=org.hibernate.engine.spi.ExecutableList@4a9419d7 collectionRemovals=org.hibernate.engine.spi.ExecutableList@2f3c6ac4 collectionUpdates=org.hibernate.engine.spi.ExecutableList@2e8ab815 collectionQueuedOps=org.hibernate.engine.spi.ExecutableList@67af833b unresolvedInsertDependencies=UnresolvedEntityInsertActions[]])
+2018-09-09 20:35:52,506 +0530 [main] INFO  (HQLDemo.java:37) - Get all employees
+2018-09-09 20:35:52,662 +0530 [main] INFO  (HQLDemo.java:39) - Query : QueryImpl(from Employee1)
+2018-09-09 20:35:52,771 +0530 [main] INFO  (HQLDemo.java:43) - List of Employees :1
+2018-09-09 20:35:52,772 +0530 [main] INFO  (HQLDemo.java:43) - List of Employees :19
+2018-09-09 20:35:52,773 +0530 [main] INFO  (HQLDemo.java:43) - List of Employees :20
+2018-09-09 20:35:52,773 +0530 [main] INFO  (HQLDemo.java:43) - List of Employees :21
+2018-09-09 20:35:52,773 +0530 [main] INFO  (HQLDemo.java:43) - List of Employees :22
+2018-09-09 20:35:52,773 +0530 [main] INFO  (HQLDemo.java:47) - HQL example - Get Employee with id
+2018-09-09 20:35:52,799 +0530 [main] INFO  (HQLDemo.java:51) - Employee Name : Gaurav C Sahu
+2018-09-09 20:35:52,802 +0530 [main] INFO  (HQLDemo.java:59) - Paginated Employees :1
+2018-09-09 20:35:52,802 +0530 [main] INFO  (HQLDemo.java:59) - Paginated Employees :19
+2018-09-09 20:35:52,802 +0530 [main] INFO  (HQLDemo.java:59) - Paginated Employees :20
+2018-09-09 20:35:52,802 +0530 [main] INFO  (HQLDemo.java:59) - Paginated Employees :21
+2018-09-09 20:35:52,803 +0530 [main] INFO  (HQLDemo.java:59) - Paginated Employees :22
+2018-09-09 20:35:52,803 +0530 [main] INFO  (HQLDemo.java:63) - Updating the Employee Name Gaurav C Sahu
+2018-09-09 20:35:52,825 +0530 [main] INFO  (HQLDemo.java:72) - Employee get called
